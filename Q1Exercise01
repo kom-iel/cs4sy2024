@@ -1,0 +1,45 @@
+public class Q1Exercise01 {
+    public static void main(String[] args) {
+      
+        String teacher1Name = "Mark Tarcelo";
+        String teacher1Subject = "Computer Science";
+        int teacher1YearsOfTeaching = 7;
+      
+        String teacher2Name = "Joshua Tarcelo";
+        String teacher2Subject = "Social Science";
+        int teacher2YearsOfTeaching = 4;
+
+        String teacher3Name = "Ma'am Ghie";
+        String teacher3Subject = "Mathematics";
+        int teacher3YearsOfTeaching = 5;
+
+        
+        System.out.println("Teacher 1");
+        System.out.println("Name: " + teacher1Name);
+        System.out.println("Subject: " + teacher1Subject);
+        System.out.println("Years of teaching: " + teacher1YearsOfTeaching);
+        System.out.println();
+
+        System.out.println("Teacher 2");
+        System.out.println("Name: " + teacher2Name);
+        System.out.println("Subject: " + teacher2Subject);
+        System.out.println("Years of teaching: " + teacher2YearsOfTeaching);
+        System.out.println();
+
+        System.out.println("Teacher 3");
+        System.out.println("Name: " + teacher3Name);
+        System.out.println("Subject: " + teacher3Subject);
+        System.out.println("Years of teaching: " + teacher3YearsOfTeaching);
+        System.out.println();
+
+        
+        int totalYearsOfTeaching = teacher1YearsOfTeaching + teacher2YearsOfTeaching + teacher3YearsOfTeaching;
+        boolean joshuaHasMoreTeachingYears = teacher2YearsOfTeaching > teacher1YearsOfTeaching;
+        boolean sameSubject = teacher1Subject.equals(teacher2Subject);
+
+        
+        System.out.println("Total years of teaching: " + totalYearsOfTeaching);
+        System.out.println("Joshua Tarcelo has more years of teaching: " + joshuaHasMoreTeachingYears);
+        System.out.println("The teachers have the same subject: " + sameSubject);
+    }
+}
